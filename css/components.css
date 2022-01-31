@@ -1,0 +1,95 @@
+@import url("../Components/Avatar/avatar.css");
+@import url("../Components/Alert/alert.css");
+@import url("../Components/Badge/badge.css");
+@import url("../Components/Button/button.css");
+@import url("../Components/Card/card.css");
+@import url("../Components/Image Comp/image.css");
+@import url("../Components/Input/input.css");
+@import url("../Components/list/list.css");
+@import url("../Components/Toast/toast.css");
+
+.github-link {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.ml-5 {
+  margin-left: 0.5rem;
+}
+
+.doc-container {
+  width: 100%;
+  display: flex;
+  padding: 0 1rem;
+  margin-top: 3rem;
+}
+
+.doc-content {
+  min-width: 0;
+  margin-left: 260px;
+  max-width: 800px;
+  flex-shrink: 1;
+}
+
+.content-title {
+  font-family: "Nunito Sans", sans-serif;
+  color: #333333;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.content-description {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 27px;
+  color: #333333;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.code-snippet {
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.divider {
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 1px;
+  background-color: #dadadaf3;
+}
+
+footer {
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+.next-comp,
+.prev-comp {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 800px) {
+  .doc-content {
+    margin: auto;
+    width: 90%;
+  }
+
+  .content-title {
+    font-size: 1.6rem;
+  }
+
+  .content-description {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+
+}
