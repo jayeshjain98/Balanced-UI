@@ -1,12 +1,6 @@
-@import url("../Components/Avatar/avatar.css");
-@import url("../Components/Alert/alert.css");
-@import url("../Components/Badge/badge.css");
-@import url("../Components/Button/button.css");
-@import url("../Components/Card/card.css");
-@import url("../Components/Image Comp/image.css");
-@import url("../Components/Input/input.css");
-@import url("../Components/list/list.css");
-@import url("../Components/Toast/toast.css");
+@import url("../components/avatar/style.css");
+@import url("../components/alert/style.css");
+
 
 .github-link {
   cursor: pointer;
@@ -49,9 +43,14 @@
 }
 
 .code-snippet {
-  width: 100%;
   margin-bottom: 2rem;
-  border-radius: 10px;
+}
+
+.example-div {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
 }
 
 .divider {
